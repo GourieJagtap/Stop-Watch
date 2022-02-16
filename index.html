@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
     <title>Document</title>
 </head>
 <body>
     <div id="time">
+        <span class="digit-time" id="hr">00</span>
         <span class="alpha-time">hr</span>
-        <span class="digit-time">00</span>
+        <span class="digit-time" id="min">00</span>
         <span class="alpha-time">min</span>
-        <span class="digit-time">00</span>
+        <span class="digit-time" id="sec">00</span>
         <span class="alpha-time">sec</span>
-        <span class="digit-time">00</span>
-        <span class="digit-time">00</span>
-    </div>
+    </div><br>
     <div id="btn">
-        <span></span>
+        <span class ="button" id="start" onclick="start()">start</span>
+        <span class ="button" id="stop" onclick="stop()">stop</span>
+        <span class ="button" id ="reset" onclick="reset()">reset</span>
     </div>
 </body>
 </html>

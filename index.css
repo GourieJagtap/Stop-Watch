@@ -1,0 +1,55 @@
+body{
+    background-color: darkcyan;
+    padding:50px 30px;
+}
+#time{
+    color: white;
+    padding: 20px 13px;
+    text-align: center;
+    border: 2px solid white;
+    background-color: rgb(2, 107, 107);
+}
+.alpha-time{
+    font-size: 25px;
+}
+.digit-time{
+    font-size:130px;
+}
+#btn{
+    text-align: center;
+}
+.button{
+    margin: 10px ;
+    padding: 7px 25px;
+    letter-spacing: 2px;
+}
+#start{
+    background-color: green;
+    color: white;
+    text-transform: uppercase;
+}
+#stop{
+    background-color:rgb(143, 143, 0);
+    color: white;
+    text-transform: uppercase;
+}
+#reset{
+    background-color:rgb(216, 0, 0);
+    color: white;
+    text-transform: uppercase;
+}
+@media  screen and (max-width: 900px) {
+    body{
+        padding: 150px 2px;
+    }
+    #time{
+        padding:20px 2px;
+        width: 100%;
+    }
+    .alpha-time{
+        font-size: 20px;
+    }
+    .digit-time{
+        font-size:50px;
+    }
+}
