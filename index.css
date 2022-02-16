@@ -43,7 +43,7 @@ body{
         padding: 150px 2px;
     }
     #time{
-        padding:20px 2px;
+        padding:15px 2px;
         width: 100%;
     }
     .alpha-time{
@@ -51,5 +51,9 @@ body{
     }
     .digit-time{
         font-size:50px;
+    }
+    .button{
+        margin: 7px ;
+        padding: 7px 20px;
     }
 }
